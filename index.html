@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Picas Y Fijas</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-6 offset-4 text-center form-group">
+				<h1>Picas Y Fijas</h1>
+				<p>Adivina el numero de 4 digitos y luego orpime <strong>enter</strong>:</p>
+				<div class="option"></div>
+				<input type="text" class="form-control" id="num">
+                  <p class="error text-danger"></p>
+			</div>
+			<div class="score col-6 offset-4">
+				<table class="table table-bordered table-dark">
+					<thead>
+						<tr>
+							<th id="u_num" scope="col">#</th>
+							<th id="pica" scope="col">Picas</th>
+							<th id="fija" scope="col">Fijas</th>
+						</tr>
+					</thead>
+				</table>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-10 offset-5">
+				<div class="result won">
+					<span>CORRECTO!!</span>
+					<div class="close col-12">
+						<a href="#">Volver a jugar</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="js/app.js"></script>
+
+
+</body>
+</html>

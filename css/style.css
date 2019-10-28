@@ -1,0 +1,61 @@
+body {
+	background-color: rgb(48, 48, 48);
+	color: white;
+	text-align: center;
+	font-family: 'Inconsolata', monospace;
+    
+}
+
+td{
+	font-size: 24px;
+	text-align: center;
+}
+.container{
+	position: absolute;
+	width: 100%;
+}
+
+.option {
+	display: inline-block;
+	background-color: rgba(47, 82, 241,0.3);
+	border-radius: 50%;
+	width: 1%;
+	height: 1%;
+	cursor:pointer;
+	margin: 20px 10px;
+	transition: all 0.45s ease;
+}
+
+.option.scale {
+	transform: scale(1000);
+}
+
+.result{
+	display: none;
+	position: absolute;
+	top: 40%;
+	width: 100%;
+	margin-top: -17%;
+}
+
+.result span{
+	font-size: 5rem;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	margin-left: -10%;
+}
+
+.result .close{
+	margin-top: 70px;
+	margin-right: -5%;
+}
+
+.result .close a{
+	color: rgb(183, 0, 0);
+	font-size: 21px;
+	text-decoration: none;
+	border: 5px solid rgb(183, 0, 0);
+	padding: 10px 15px;
+	border-radius: 5px;
+}
